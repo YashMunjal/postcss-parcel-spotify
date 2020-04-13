@@ -4,6 +4,11 @@ module.exports={
             html:[
                 './index.html'
             ]
+        }),
+        require('css-byebye')({
+            html:[
+                './index.html'
+            ]
         })
     ]
 }
